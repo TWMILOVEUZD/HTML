@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图像</title>
+</head>
+<body>
+	<!-- 
+		<img> 即图像标签 
+		需要设置其属性 src指定图像的路径
+	 -->
+	 <h1>1、同级目录图像：</h1>
+	 <img width="200" height="200" alt="图像" src="同级目录图像.JPG">
+	 <h1>2、上级目录图像：</h1>
+	 <img width="200" height="200" alt="图像" src="../img/IMG_2617.JPG">
+	 <h1>3、其他目录图像：</h1>
+	 <img width="200" height="200" alt="图像" src="file://C:/Users/Administrator/Documents/Tencent Files/593862616/FileRecv/MobileFile/IMG_2584.JPG">
+	 <h1>4、图像居中、居左、居右：</h1>
+	 <!-- 
+	 	img不能够自己居中，需要放在其他能够居中的标签中实现这个效果，比如h1标签,p标签. 
+		经常采用的手段是放在div中居中 
+	  -->
+	  <h3>居中：</h3>
+	  <div align="center">
+	  	<img width="200" height="200" alt="图像" src="../img/IMG_2620.JPG">
+	  </div>
+	  <h3>居左：</h3>
+	  <div align="left">
+	  	<img width="200" height="200" alt="图像" src="../img/IMG_2837.JPG">
+	  </div>
+	  <h3>居右：</h3>
+	  <div align="right">
+	  	<img width="200" height="200" alt="图像" src="../img/IMG_2838.JPG">
+	  </div>
+</body>
+</html>
