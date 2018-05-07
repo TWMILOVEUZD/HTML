@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表格</title>
+</head>
+<body>
+	<!-- 
+		<table>标签用于显示一个表格 
+		<tr> 表示行 :table row
+		<td> 表示列又叫单元格:table data
+	 -->
+	 <h3>1、3行2列表格：</h3>
+	 <table>
+	 	<tr>
+	 		<td>第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>2、带边框的表格：</h3>
+	 <table border="1">
+	 	<tr>
+	 		<td>第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>	
+	 <h3>3、设置table的宽度：</h3> 
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td>第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>	
+	 <h3>4、单元格宽度绝对值：</h3> 
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td width="50px">第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>5、单元格宽度相对值：</h3>	
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td width="80%">第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>6、单元格水平对齐：(align)</h3>
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td width="50%" align="left">第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td align="center">第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td align="right">第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>7、单元格垂直对齐：(valign)</h3>	
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td width="50%" valign="top">第一行第一列</td>
+	 		<td>
+	 			第一行第二列<br>
+	 			第一行第二列<br>
+	 			第一行第二列<br>
+	 		</td>
+	 	</tr>
+	 	<tr>
+	 		<td valign="middle">第二行第一列</td>
+	 		<td>
+	 			第二行第二列<br>
+	 			第二行第二列<br>
+	 			第二行第二列<br>
+	 		</td>
+	 	</tr>
+	 	<tr>
+	 		<td valign="bottom">第三行第一列</td>
+	 		<td>
+	 			第三行第二列<br>
+	 			第三行第二列<br>
+	 			第三行第二列<br>
+	 		</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>8、横跨两列，水平合并：</h3>	  	
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td colspan="2">第一行第一列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>9、横跨两行，垂直合并：</h3>	 
+	 <table border="1" width="500px">
+	 	<tr>
+	 		<td rowspan="2">第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td>第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>
+	 <h3>10、背景色：</h3>	  
+	 <table border="1" width="500px">
+	 	<tr bgcolor="gray">
+	 		<td>第一行第一列</td>
+	 		<td>第一行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第二行第一列</td>
+	 		<td>第二行第二列</td>
+	 	</tr>
+	 	<tr>
+	 		<td>第三行第一列</td>
+	 		<td bgcolor="pink">第三行第二列</td>
+	 	</tr>	 		 	
+	 </table>	 
+</body>
+</html>
