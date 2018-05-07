@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>块 div span</title>
+</head>
+<body>
+	<h3>1、看不出任何效果</h3>
+	这没有标签
+	<div>这是一个div</div>
+	<span>这是一个span</span>
+	<h3>2、div布局：</h3>
+	<!-- 
+		一个简单的div布局的例子 
+		注： 这里使用了style外边距样式，margin-left:50px 指的是左边距50个像素 
+		需要对两个图片进行左边距控制 
+		如果不使用div,则需要对每一个图像设置边距 
+		使用了div后，先把两个图像都放在一个div里 
+		只需要设置div的边距，就可以达到两个图片都移动的效果
+	 -->
+	<img style="margin-left: 50px" alt="图片" width="200" height="200"
+		src="../img/IMG_2843.JPG">
+	<img style="margin-left: 50px" alt="图片" width="200" height="200"
+		src="../img/IMG_2842.JPG">
+	<div style="margin-left: 50px">
+		<img alt="图片" width="200" height="200" src="../img/IMG_2841.JPG">
+		<img alt="图片" width="200" height="200" src="../img/IMG_2840.JPG">
+	</div>
+	<h3>div和span的区别：</h3>
+	<!-- 
+		div是块元素，即自动换行 
+		常见的块元素还有h1,table,p 
+		span是内联元素，即不会换行 
+		常见的内联元素还有img,a,b,strong
+	 -->
+	 <div>
+	 	第一个div
+	 </div>
+	 <div>
+	 	第二个div
+	 </div>
+	 <span>
+		 第一个span
+	 </span>
+	 <span>
+	 	第二个span
+	 </span>
+</body>
+</html>
